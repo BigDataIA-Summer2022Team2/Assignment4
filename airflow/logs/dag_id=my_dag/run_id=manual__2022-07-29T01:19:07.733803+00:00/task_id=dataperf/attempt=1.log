@@ -1,0 +1,37 @@
+[2022-07-28 21:19:09,218] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: my_dag.dataperf manual__2022-07-29T01:19:07.733803+00:00 [queued]>
+[2022-07-28 21:19:09,222] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: my_dag.dataperf manual__2022-07-29T01:19:07.733803+00:00 [queued]>
+[2022-07-28 21:19:09,222] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-28 21:19:09,222] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-07-28 21:19:09,222] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-28 21:19:09,234] {taskinstance.py:1377} INFO - Executing <Task(BashOperator): dataperf> on 2022-07-29 01:19:07.733803+00:00
+[2022-07-28 21:19:09,235] {standard_task_runner.py:52} INFO - Started process 10465 to run task
+[2022-07-28 21:19:09,237] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'my_dag', 'dataperf', 'manual__2022-07-29T01:19:07.733803+00:00', '--job-id', '18', '--raw', '--subdir', 'DAGS_FOLDER/mydag.py', '--cfg-path', '/tmp/tmpt2395jk4', '--error-file', '/tmp/tmpyjofwyzp']
+[2022-07-28 21:19:09,237] {standard_task_runner.py:80} INFO - Job 18: Subtask dataperf
+[2022-07-28 21:19:09,262] {task_command.py:370} INFO - Running <TaskInstance: my_dag.dataperf manual__2022-07-29T01:19:07.733803+00:00 [running]> on host DESKTOP-5GAFI6N.localdomain
+[2022-07-28 21:19:09,299] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=my_dag
+AIRFLOW_CTX_TASK_ID=dataperf
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-29T01:19:07.733803+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-07-29T01:19:07.733803+00:00
+[2022-07-28 21:19:09,300] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-07-28 21:19:09,300] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'python3 /home/lemon/main/Assignment4/dataperf-vision-debugging/create_baselines.py && python3 /home/lemon/main/Assignment4/dataperf-vision-debugging/main.py && python3 /home/lemon/main/Assignment4/dataperf-vision-debugging/plotter.py']
+[2022-07-28 21:19:09,304] {subprocess.py:85} INFO - Output:
+[2022-07-28 21:19:09,407] {subprocess.py:92} INFO - Traceback (most recent call last):
+[2022-07-28 21:19:09,407] {subprocess.py:92} INFO -   File "/home/lemon/main/Assignment4/dataperf-vision-debugging/create_baselines.py", line 7, in <module>
+[2022-07-28 21:19:09,407] {subprocess.py:92} INFO -     from pyarrow import parquet as pq
+[2022-07-28 21:19:09,407] {subprocess.py:92} INFO - ModuleNotFoundError: No module named 'pyarrow'
+[2022-07-28 21:19:09,419] {subprocess.py:96} INFO - Command exited with return code 1
+[2022-07-28 21:19:09,425] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/lemon/airflow/airflowenv/lib/python3.8/site-packages/airflow/operators/bash.py", line 194, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2022-07-28 21:19:09,428] {taskinstance.py:1395} INFO - Marking task as FAILED. dag_id=my_dag, task_id=dataperf, execution_date=20220729T011907, start_date=20220729T011909, end_date=20220729T011909
+[2022-07-28 21:19:09,442] {standard_task_runner.py:92} ERROR - Failed to execute job 18 for task dataperf (Bash command failed. The command returned a non-zero exit code 1.; 10465)
+[2022-07-28 21:19:09,449] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-07-28 21:19:09,460] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

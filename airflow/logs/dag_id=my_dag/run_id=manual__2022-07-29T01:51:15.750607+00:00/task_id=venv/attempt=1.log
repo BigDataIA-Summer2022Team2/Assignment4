@@ -1,0 +1,27 @@
+[2022-07-28 21:51:16,898] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: my_dag.venv manual__2022-07-29T01:51:15.750607+00:00 [queued]>
+[2022-07-28 21:51:16,902] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: my_dag.venv manual__2022-07-29T01:51:15.750607+00:00 [queued]>
+[2022-07-28 21:51:16,902] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-28 21:51:16,902] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-07-28 21:51:16,902] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-28 21:51:16,915] {taskinstance.py:1377} INFO - Executing <Task(BashOperator): venv> on 2022-07-29 01:51:15.750607+00:00
+[2022-07-28 21:51:16,916] {standard_task_runner.py:52} INFO - Started process 15334 to run task
+[2022-07-28 21:51:16,918] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'my_dag', 'venv', 'manual__2022-07-29T01:51:15.750607+00:00', '--job-id', '35', '--raw', '--subdir', 'DAGS_FOLDER/mydag.py', '--cfg-path', '/tmp/tmpak94113h', '--error-file', '/tmp/tmpfajv6y_r']
+[2022-07-28 21:51:16,918] {standard_task_runner.py:80} INFO - Job 35: Subtask venv
+[2022-07-28 21:51:16,946] {task_command.py:370} INFO - Running <TaskInstance: my_dag.venv manual__2022-07-29T01:51:15.750607+00:00 [running]> on host DESKTOP-5GAFI6N.localdomain
+[2022-07-28 21:51:16,981] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=my_dag
+AIRFLOW_CTX_TASK_ID=venv
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-29T01:51:15.750607+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-07-29T01:51:15.750607+00:00
+[2022-07-28 21:51:16,982] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-07-28 21:51:16,982] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'source /home/lemon/main/Assignment4/dataperf-vision-debugging/.venv/bin/activate']
+[2022-07-28 21:51:16,985] {subprocess.py:85} INFO - Output:
+[2022-07-28 21:51:16,986] {subprocess.py:96} INFO - Command exited with return code 0
+[2022-07-28 21:51:17,003] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=my_dag, task_id=venv, execution_date=20220729T015115, start_date=20220729T015116, end_date=20220729T015117
+[2022-07-28 21:51:17,050] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-07-28 21:51:17,070] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

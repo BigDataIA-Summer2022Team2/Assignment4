@@ -1,0 +1,95 @@
+[2022-07-28 19:46:32,422] {processor.py:153} INFO - Started process (PID=368) to work on /home/lemon/airflow/airflowenv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-07-28 19:46:32,422] {processor.py:641} INFO - Processing file /home/lemon/airflow/airflowenv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-07-28 19:46:32,422] {logging_mixin.py:115} INFO - [2022-07-28 19:46:32,422] {dagbag.py:507} INFO - Filling up the DagBag from /home/lemon/airflow/airflowenv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-07-28 19:46:32,428] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lemon/airflow/airflowenv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-07-28 19:46:32,475] {logging_mixin.py:115} INFO - [2022-07-28 19:46:32,475] {manager.py:508} INFO - Created Permission View: can delete on DAG:example_complex
+[2022-07-28 19:46:32,483] {logging_mixin.py:115} INFO - [2022-07-28 19:46:32,482] {manager.py:508} INFO - Created Permission View: can read on DAG:example_complex
+[2022-07-28 19:46:32,489] {logging_mixin.py:115} INFO - [2022-07-28 19:46:32,489] {manager.py:508} INFO - Created Permission View: can edit on DAG:example_complex
+[2022-07-28 19:46:32,489] {logging_mixin.py:115} INFO - [2022-07-28 19:46:32,489] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-28 19:46:32,493] {logging_mixin.py:115} INFO - [2022-07-28 19:46:32,493] {dag.py:2398} INFO - Creating ORM DAG for example_complex
+[2022-07-28 19:46:32,497] {logging_mixin.py:115} INFO - [2022-07-28 19:46:32,497] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2022-07-28 19:46:32,508] {processor.py:161} INFO - Processing /home/lemon/airflow/airflowenv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.088 seconds
+[2022-07-28 19:47:04,899] {processor.py:153} INFO - Started process (PID=606) to work on /home/lemon/airflow/airflowenv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-07-28 19:47:04,899] {processor.py:641} INFO - Processing file /home/lemon/airflow/airflowenv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-07-28 19:47:04,899] {logging_mixin.py:115} INFO - [2022-07-28 19:47:04,899] {dagbag.py:507} INFO - Filling up the DagBag from /home/lemon/airflow/airflowenv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-07-28 19:47:04,906] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lemon/airflow/airflowenv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-07-28 19:47:04,915] {logging_mixin.py:115} INFO - [2022-07-28 19:47:04,915] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-28 19:47:04,924] {logging_mixin.py:115} INFO - [2022-07-28 19:47:04,924] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2022-07-28 19:47:04,935] {processor.py:161} INFO - Processing /home/lemon/airflow/airflowenv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.037 seconds
+[2022-07-28 19:47:39,654] {processor.py:153} INFO - Started process (PID=948) to work on /home/lemon/airflow/airflowenv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-07-28 19:47:39,662] {processor.py:641} INFO - Processing file /home/lemon/airflow/airflowenv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-07-28 19:47:39,662] {logging_mixin.py:115} INFO - [2022-07-28 19:47:39,662] {dagbag.py:507} INFO - Filling up the DagBag from /home/lemon/airflow/airflowenv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-07-28 19:47:39,669] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lemon/airflow/airflowenv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-07-28 19:47:39,677] {logging_mixin.py:115} INFO - [2022-07-28 19:47:39,677] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-28 19:47:39,685] {logging_mixin.py:115} INFO - [2022-07-28 19:47:39,685] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2022-07-28 19:47:39,697] {processor.py:161} INFO - Processing /home/lemon/airflow/airflowenv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.045 seconds
+[2022-07-28 19:48:12,419] {processor.py:153} INFO - Started process (PID=982) to work on /home/lemon/airflow/airflowenv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-07-28 19:48:12,419] {processor.py:641} INFO - Processing file /home/lemon/airflow/airflowenv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-07-28 19:48:12,420] {logging_mixin.py:115} INFO - [2022-07-28 19:48:12,420] {dagbag.py:507} INFO - Filling up the DagBag from /home/lemon/airflow/airflowenv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-07-28 19:48:12,426] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lemon/airflow/airflowenv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-07-28 19:48:12,435] {logging_mixin.py:115} INFO - [2022-07-28 19:48:12,435] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-28 19:48:12,443] {logging_mixin.py:115} INFO - [2022-07-28 19:48:12,443] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2022-07-28 19:48:12,454] {processor.py:161} INFO - Processing /home/lemon/airflow/airflowenv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.036 seconds
+[2022-07-28 19:48:44,296] {processor.py:153} INFO - Started process (PID=1018) to work on /home/lemon/airflow/airflowenv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-07-28 19:48:44,297] {processor.py:641} INFO - Processing file /home/lemon/airflow/airflowenv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-07-28 19:48:44,297] {logging_mixin.py:115} INFO - [2022-07-28 19:48:44,297] {dagbag.py:507} INFO - Filling up the DagBag from /home/lemon/airflow/airflowenv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-07-28 19:48:44,302] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lemon/airflow/airflowenv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-07-28 19:48:44,311] {logging_mixin.py:115} INFO - [2022-07-28 19:48:44,311] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-28 19:48:44,320] {logging_mixin.py:115} INFO - [2022-07-28 19:48:44,319] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2022-07-28 19:48:44,331] {processor.py:161} INFO - Processing /home/lemon/airflow/airflowenv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.035 seconds
+[2022-07-28 19:51:14,168] {processor.py:153} INFO - Started process (PID=1330) to work on /home/lemon/airflow/airflowenv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-07-28 19:51:14,177] {processor.py:641} INFO - Processing file /home/lemon/airflow/airflowenv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-07-28 19:51:14,177] {logging_mixin.py:115} INFO - [2022-07-28 19:51:14,177] {dagbag.py:507} INFO - Filling up the DagBag from /home/lemon/airflow/airflowenv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-07-28 19:51:14,183] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lemon/airflow/airflowenv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-07-28 19:51:14,193] {logging_mixin.py:115} INFO - [2022-07-28 19:51:14,193] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-28 19:51:14,202] {logging_mixin.py:115} INFO - [2022-07-28 19:51:14,202] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2022-07-28 19:51:14,213] {processor.py:161} INFO - Processing /home/lemon/airflow/airflowenv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.046 seconds
+[2022-07-28 19:51:45,594] {processor.py:153} INFO - Started process (PID=1497) to work on /home/lemon/airflow/airflowenv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-07-28 19:51:45,595] {processor.py:641} INFO - Processing file /home/lemon/airflow/airflowenv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-07-28 19:51:45,595] {logging_mixin.py:115} INFO - [2022-07-28 19:51:45,595] {dagbag.py:507} INFO - Filling up the DagBag from /home/lemon/airflow/airflowenv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-07-28 19:51:45,602] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lemon/airflow/airflowenv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-07-28 19:51:45,611] {logging_mixin.py:115} INFO - [2022-07-28 19:51:45,611] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-28 19:51:45,620] {logging_mixin.py:115} INFO - [2022-07-28 19:51:45,620] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2022-07-28 19:51:45,629] {processor.py:161} INFO - Processing /home/lemon/airflow/airflowenv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.036 seconds
+[2022-07-28 19:52:42,091] {processor.py:153} INFO - Started process (PID=1845) to work on /home/lemon/airflow/airflowenv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-07-28 19:52:42,092] {processor.py:641} INFO - Processing file /home/lemon/airflow/airflowenv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-07-28 19:52:42,092] {logging_mixin.py:115} INFO - [2022-07-28 19:52:42,092] {dagbag.py:507} INFO - Filling up the DagBag from /home/lemon/airflow/airflowenv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-07-28 19:52:42,099] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lemon/airflow/airflowenv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-07-28 19:52:42,108] {logging_mixin.py:115} INFO - [2022-07-28 19:52:42,108] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-28 19:52:42,116] {logging_mixin.py:115} INFO - [2022-07-28 19:52:42,116] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2022-07-28 19:52:42,126] {processor.py:161} INFO - Processing /home/lemon/airflow/airflowenv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.036 seconds
+[2022-07-28 19:53:13,223] {processor.py:153} INFO - Started process (PID=2084) to work on /home/lemon/airflow/airflowenv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-07-28 19:53:13,224] {processor.py:641} INFO - Processing file /home/lemon/airflow/airflowenv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-07-28 19:53:13,225] {logging_mixin.py:115} INFO - [2022-07-28 19:53:13,225] {dagbag.py:507} INFO - Filling up the DagBag from /home/lemon/airflow/airflowenv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-07-28 19:53:13,232] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lemon/airflow/airflowenv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-07-28 19:53:13,242] {logging_mixin.py:115} INFO - [2022-07-28 19:53:13,242] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-28 19:53:13,252] {logging_mixin.py:115} INFO - [2022-07-28 19:53:13,252] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2022-07-28 19:53:13,265] {processor.py:161} INFO - Processing /home/lemon/airflow/airflowenv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.043 seconds
+[2022-07-28 19:53:47,360] {processor.py:153} INFO - Started process (PID=2376) to work on /home/lemon/airflow/airflowenv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-07-28 19:53:47,368] {processor.py:641} INFO - Processing file /home/lemon/airflow/airflowenv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-07-28 19:53:47,369] {logging_mixin.py:115} INFO - [2022-07-28 19:53:47,368] {dagbag.py:507} INFO - Filling up the DagBag from /home/lemon/airflow/airflowenv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-07-28 19:53:47,375] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lemon/airflow/airflowenv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-07-28 19:53:47,385] {logging_mixin.py:115} INFO - [2022-07-28 19:53:47,385] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-28 19:53:47,396] {logging_mixin.py:115} INFO - [2022-07-28 19:53:47,396] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2022-07-28 19:53:47,407] {processor.py:161} INFO - Processing /home/lemon/airflow/airflowenv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.048 seconds
+[2022-07-28 19:54:20,982] {processor.py:153} INFO - Started process (PID=2513) to work on /home/lemon/airflow/airflowenv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-07-28 19:54:20,990] {processor.py:641} INFO - Processing file /home/lemon/airflow/airflowenv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-07-28 19:54:20,990] {logging_mixin.py:115} INFO - [2022-07-28 19:54:20,990] {dagbag.py:507} INFO - Filling up the DagBag from /home/lemon/airflow/airflowenv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-07-28 19:54:20,997] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lemon/airflow/airflowenv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-07-28 19:54:21,006] {logging_mixin.py:115} INFO - [2022-07-28 19:54:21,006] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-28 19:54:21,015] {logging_mixin.py:115} INFO - [2022-07-28 19:54:21,015] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2022-07-28 19:54:21,025] {processor.py:161} INFO - Processing /home/lemon/airflow/airflowenv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.044 seconds
+[2022-07-28 19:54:55,356] {processor.py:153} INFO - Started process (PID=2548) to work on /home/lemon/airflow/airflowenv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-07-28 19:54:55,359] {processor.py:641} INFO - Processing file /home/lemon/airflow/airflowenv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-07-28 19:54:55,359] {logging_mixin.py:115} INFO - [2022-07-28 19:54:55,359] {dagbag.py:507} INFO - Filling up the DagBag from /home/lemon/airflow/airflowenv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-07-28 19:54:55,366] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lemon/airflow/airflowenv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-07-28 19:54:55,375] {logging_mixin.py:115} INFO - [2022-07-28 19:54:55,375] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-28 19:54:55,384] {logging_mixin.py:115} INFO - [2022-07-28 19:54:55,384] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2022-07-28 19:54:55,393] {processor.py:161} INFO - Processing /home/lemon/airflow/airflowenv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.038 seconds
+[2022-07-28 19:55:28,674] {processor.py:153} INFO - Started process (PID=2583) to work on /home/lemon/airflow/airflowenv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-07-28 19:55:28,675] {processor.py:641} INFO - Processing file /home/lemon/airflow/airflowenv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-07-28 19:55:28,675] {logging_mixin.py:115} INFO - [2022-07-28 19:55:28,675] {dagbag.py:507} INFO - Filling up the DagBag from /home/lemon/airflow/airflowenv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-07-28 19:55:28,681] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lemon/airflow/airflowenv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2022-07-28 19:55:28,690] {logging_mixin.py:115} INFO - [2022-07-28 19:55:28,690] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-28 19:55:28,699] {logging_mixin.py:115} INFO - [2022-07-28 19:55:28,699] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2022-07-28 19:55:28,709] {processor.py:161} INFO - Processing /home/lemon/airflow/airflowenv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.037 seconds
